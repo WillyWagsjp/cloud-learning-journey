@@ -1,7 +1,5 @@
 # cloud-learning-journey
 
-# Cloud Learning Journey
-
 ## Background
 
 I currently work in IT in Japan and am building skills in cloud engineering, infrastructure, and cybersecurity.
