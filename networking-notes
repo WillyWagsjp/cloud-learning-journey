@@ -1,1 +1,49 @@
 networking-notes
+# Networking Notes
+
+## What is an IP Address?
+
+An IP address identifies a device on a network.
+
+Example:
+
+192.168.1.100
+
+A device needs an IP address to communicate with other devices.
+
+## Public vs Private IP
+
+### Public IP
+
+Used on the internet.
+
+Example:
+8.8.8.8
+
+### Private IP
+
+Used inside local networks.
+
+Examples:
+192.168.x.x
+10.x.x.x
+172.16.x.x - 172.31.x.x
+
+## DNS
+
+DNS translates names into IP addresses.
+
+Example:
+
+google.com
+↓
+
+142.250.xxx.xxx
+
+Without DNS, users would need to remember IP addresses.
+
+## Questions
+
+- What is a DNS server?
+- How does DNS caching work?
+- What is NAT?
