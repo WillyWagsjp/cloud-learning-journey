@@ -1,1 +1,59 @@
+linux notes
+
+
+command line vs gui
+-more freedom with command line 
+-gui is a graphical interface, like an app instead of command line
+
+terminal
+-terminal emulator
+-text based commands
+
+shell
+-runs the commands from the terminal
+-repl
+ -read
+ -eval
+ -print
+ -loop
+
+variables
+
+terminal emulators
+-editor/ide built in terminals like vscode
+-ghostty
+-alacritty
+-windows terminal 
+
+filesystems
+-print working directory
+-/ first slash represents root directory
+-home is the name of a directory inside the root directory
+-last part is username "willwags" for example 
+-use cd to change directory ex: "cd downloads"
+-cd.. to move out of a directory
+- cd "" to get back in 
+ -absolute paths
+  -starts at the ROOT of the filesystem
+  -/vehicles/cars/fords/mustang.txt
+-cat to show the content of a contained file in a directory
+-head and tail, show first or last lines of a file "head/tail -n 10 2023.csv"
+-less and more,  more and less commands let you view the contents of a file, one page (or line) at a time.
+-Re-run the less command, but this time, pipe cat -n into it so the CSV stays plain text while you browse with line numbers:
+  cat -n 2023.csv | less
+-touch command updates the access and modification timestamps of a file. By default, if the specified file does not exist, touch will create an empty file with the given filename
+-If file.txt already exists:
+  -The file contents stay the same.
+  -The modified timestamp is updated to "right now."
+
+  -If file.txt does not exist:
+  -A new empty file is created.
+-mkdir creates new directory inside or relative to current directory 
+-move command moves a file or directory from one location to another/renaming
+  -moving a file from the current directory, to the parent directory:
+     mv some_file.txt ../some_file.txt
+  -renaming
+     mv some_file.txt some_other_name.txt
+  -moving a file from the current directory to another nested directory:
+     mv some_file.txt some_directory/some_file.txt
 
