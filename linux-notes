@@ -56,4 +56,12 @@ filesystems
      mv some_file.txt some_other_name.txt
   -moving a file from the current directory to another nested directory:
      mv some_file.txt some_directory/some_file.txt
+/ means and absolute path dont forget ..
+-remove command deletes files or empty directory
+-rm -r (directory name)
+-cp copy command to copy from one location to another
+-cp -R my_dir new_dir copies directory and all of its contents 
+-ln symbolic links, creates links -s flag for symbolic links, creates another path that points to the original
+-path to target comes first
+
 
