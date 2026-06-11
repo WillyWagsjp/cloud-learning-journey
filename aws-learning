@@ -1,1 +1,41 @@
 aws learning notes
+
+Amazon Elastic Cloud Compute (ec2)
+-raw compute capacity to host applications 
+-highly flexible, cost effective
+-can be up and running in just a few minutes
+-ec2s are virtual machines(VM) share and unerlying physical host with other instances
+-can choose the os (Windows/Linux)
+-re-sizeable, can give the instance more memory or cpu. vertically scaling.
+-i control the networking aspect., i control the requests.
+ -(how to) 
+  -select an AMI. Defines the operating system.
+  -instance type, determines underlying resources (cpu, memory, network performance)
+  -connect to the instance(many ways) using ssh, or RDP for windows.
+  -after connection, you can use it to run commans, insatll software, add storage, organize files
+instance types
+-general purpose instance, balance of of everything. diverse workloads like web services or repositories
+-compute optimized instance, intensive tasks, gaming, high computing, machine learning, science modeling
+-accelerated instance, number calculation, graphics processing, data pattern matching
+-memory optimized instacne, memory intensive tasks, fast performance for high workloads and data sets
+-storage optimized instance, high performance for locally stored data.
+
+-call apis using aws console, everything is an api call
+
+ami- amazon machine imaging 
+-includes the operating system, storage setup, architecture type, permissions for launching, and any extra software that is already installed. You can use one AMI to launch several EC2 instances that all have the same setup.
+
+On-Demand Instances:
+Pay only for the compute capacity you consume with no upfront payments or long-term commitments required.
+
+Reserved Instances:
+Get a savings of up to 75 percent by committing to a 1-year or 3-year term for predictable workloads using specific instance families and AWS Regions.
+
+Spot Instances:
+Bid on spare compute capacity at up to 90 percent off the On-Demand price, with the flexibility to be interrupted when AWS reclaims the instance.
+
+Dedicated Hosts:
+Reserve an entire physical server for your exclusive use. This option offers full control and is ideal for workloads with strict security or licensing needs.
+
+Dedicated Instances:
+Pay for instances running on hardware dedicated solely to your account. This option provides isolation from other AWS customers.
