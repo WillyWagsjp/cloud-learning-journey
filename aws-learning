@@ -39,3 +39,18 @@ Reserve an entire physical server for your exclusive use. This option offers ful
 
 Dedicated Instances:
 Pay for instances running on hardware dedicated solely to your account. This option provides isolation from other AWS customers.
+
+aws has auto scaling and (elb) for managing high network traffic ensuring there is no overload on the server and network
+
+buffering, messaging queing, messages are sat in a queue until processed, amazon sqs
+eventbridge
+
+Compute Services
+
+Lambda- function as a service, uses any code, scales up and down automactically, handling website requests, processing batches of data, and generating expense repo
+
+Containers - EKS and EC2
+
+
+
+
