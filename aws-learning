@@ -49,7 +49,33 @@ Compute Services
 
 Lambda- function as a service, uses any code, scales up and down automactically, handling website requests, processing batches of data, and generating expense repo
 
-Containers - EKS and EC2
+Containers - EKS and ECS
+Containers are for packaging an application(code, runtime, configs, dependencies)to work across all machines
+Amazon offers Elastic Kubernetes service and Elastic Comtainer Service, also Fargate(Serverless)
+
+Additional computer services
+-Aws Elastic Beanstalk - easier to deploy and manage applications. svaes environment configs
+-Aws Batch - compute service for heavy tasks. batch handles the provisionign, scaling and or managing.
+-Amazon Lightsail - simplifies webapp hosting
+-Aws Outposts - hybrid-cloud solution, local and aws hosting combined
+
+AWS Global - Choosing regions, Edge Locations
+Amazon CLoudfront, Content delivery network, designed to serve clients content as close to users as possible
+AWS Cloud Formation, IaC service that is used to define a wide variety of AWs resources in a declaritive way by creating text based documents called CloudFormation templates
+Programmatic access includes options like the AWS CLI and AWS SDKs
+
+Networking
+-AWS networking, Amazon Virtual Private Cloud(VPC)
+-Subnets, used to organize your resources, private or public, group things together in a VPC
+
+-Aws client VPN - connect remote workers and on premises networks to the cloud
+-AWS site-tosite VPN -secure connection between your data center or branch offices and your AWS Cloud resources
+-AWS PrivateLink - privately connect your VPC to services and resources as if they were in your VPC. You do not need to use an internet gateway, NAT device, public IP address, Direct Connect connection, or AWS Site-to-Site VPN connection to allow communication with AWS services or resources from your private subnets. Instead, you control the specific API endpoints, sites, services, and resources that are reachable from your VPC.
+-AWS Direct Connect - service that makes it possible for you to establish a dedicated private connection between your network and VPC in the AWS Cloud
+
+
+
+
 
 
 
